@@ -9,28 +9,28 @@ export default function HousingIsland() {
           <p>Check out some of our latest properties on these Islands</p>
         </div>
         <div className="row mb-3">
-          <div className="col d-flex justify-content-center ">
+          <div className="col-sm mb-2 d-flex justify-content-center ">
             <HousingIslandCard
               url="/islands/1"
               title="Grand Bahama"
               img="/img/islands/Grand Bahama Island.jpg"
             />
           </div>
-          <div className="col d-flex justify-content-center ">
+          <div className="col-sm mb-2 d-flex justify-content-center ">
             <HousingIslandCard
               url="/islands/0"
               title="Abaco"
               img="/img/islands/Abaco Island.jpg"
             />
           </div>
-          <div className="col d-flex justify-content-center ">
+          <div className="col-sm mb-2 d-flex justify-content-center ">
             <HousingIslandCard
               url="/islands/2"
               title="Eleuthera"
               img="/img/islands/Eleuthera Island.jpg"
             />
           </div>
-          <div className="col d-flex justify-content-center">
+          <div className="col-sm mb-2 d-flex justify-content-center">
             <HousingIslandCard
               url="/islands/3"
               title="New Providence"
